@@ -1,0 +1,21 @@
+Language: Cpp
+BasedOnStyle: Google
+IndentWidth: 2
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: All
+ColumnLimit: 80
+PenaltyBreakAssignment: 2
+PenaltyReturnTypeOnItsOwnLine: 200
+PointerAlignment: Left
+SpaceBeforeParens: Never
+SortIncludes: true
+IncludeBlocks: Merge
+IncludeCategories:
+  - Regex: "<[^>]+>"
+    Priority: 0
+  - Regex: "^[a-z]+.h$"
+    Priority: 1
+  - Regex: "^[^/]+/[^/]+.h$"
+    Priority: 2
+  - Regex: ".*/[^/]+.h$"
+    Priority: 3
