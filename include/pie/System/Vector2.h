@@ -28,4 +28,8 @@ namespace pie {
     bool operator!=(const Vector2<T> &other);
 #pragma endregion operator
   };
+
+  typedef Vector2<int> Vector2i;
+  typedef Vector2<float> Vector2f;
+  typedef Vector2<unsigned int> Vector2u;
 }  // namespace pie
